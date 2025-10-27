@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
-import { store } from './App/Store'; // 👈 adjust this path based on your project
+import { Store } from './App/Store'; // 👈 adjust this path based on your project
 import App from './App';
 
 test('renders learn react link', () => {
